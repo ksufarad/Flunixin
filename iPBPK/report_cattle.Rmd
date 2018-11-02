@@ -1,0 +1,14 @@
+## Flunixin PBPK Model Output
+
+####The results were achieved using our population PBPK model of Flunixin in Swine and Cattle. These results were based on the Monte Carlo simulation of `r get_numberofsimulation()` animals after exposure to `r get_Drug()` via the `r get_route()` administration at `r get_Dose()` mg/kg for `r get_Tdoses()` doses with `r get_tinterval()`-hour intervals in `r get_animal()`.
+
+####Based on the VetGRAM database, the labeled use for Flunixin is 2.2 mg/kg daily or divided into 2 doses through iv injection for up to 3 days of treatment in Adult Cattle, and the labeled withdrawal period is 4 days for the formulation with NADA number of 101-479. The tolerance of Flunixin is 0.125 ppm or ug/g in the target tissue of liver in cattle.
+
+####Based on the parameters you have provided, the simulation results showed that at `r get_days()` days after the last administration, the concentration of flunixin in the liver was lower than the tolerance for the 99th percentile of the simulated population of animals. Thus, the recommended extended withdrawal interval (WDI) is `r get_WDI()` days. According to FDA guidelines, if the estimated WDI is a fraction of a day, it should be rounded up to the next whole day.
+
+###Liver as the target organ
+```{r plotl, fig.height = 5, fig.width = 10, echo=FALSE, warning=FALSE}
+plot_liver()
+```
+
+Note: we would like to notify that by providing a withdrawal interval recommendation, it could be interpreted as advising/prescribing extra label drug use which requires a valid veterinary client patient relationship. In addition, the prescribing or advising veterinarian will be held responsible for any violative residues.   

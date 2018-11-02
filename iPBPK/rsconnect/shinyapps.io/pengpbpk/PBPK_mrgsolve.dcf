@@ -1,0 +1,12 @@
+name: PBPK_mrgsolve
+title: PBPK_mrgsolve
+username:
+account: pengpbpk
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 370404
+bundleId: 1487382
+url: https://pengpbpk.shinyapps.io/PBPK_mrgsolve/
+when: 1531937399.66922
+asMultiple: FALSE
+asStatic: FALSE

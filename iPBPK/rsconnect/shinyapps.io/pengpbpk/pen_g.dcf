@@ -1,0 +1,13 @@
+name: pen_g
+title: pen_g
+username:
+account: pengpbpk
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 223617
+bundleId: 1223665
+url: https://pengpbpk.shinyapps.io/pen_g/
+when: 1518652212.90994
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|Pen G RShiny App Tutorials 2-12-18.docx|tutorial.pdf

@@ -1,0 +1,13 @@
+name: Flunixin
+title: Flunixin
+username:
+account: pengpbpk
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 329636
+bundleId: 1677064
+url: https://pengpbpk.shinyapps.io/Flunixin/
+when: 1541098213.42205
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData
